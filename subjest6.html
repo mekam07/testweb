@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="/stayl.css">
+
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg  fixed-top " style="background-color:  #b333d6; ">
+            <div class="container-fluid">
+                <div class="lg">
+                    <a class="navbar-brand" style="color: white
+                            ; font-size: larger;" href="/index.html"><img src="/imgg/lgg.png" alt=""></a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white
+                            ; font-size: larger;" aria-current="page" href="/index.html"><b> Home</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white
+                            ; font-size: larger;" href="/About.html"><b> About</b></a>
+                        </li>
+                        <!-- <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+        </a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+                <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white
+                            ; font-size: larger;" href="/Contact.html"><b> Contact </b></a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-primary" type="submit" style="">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="container  " style="padding-top: 10rem;">
+            <div class="row row-cols-1 py-5 row-cols-sm-2 row-cols-md-3 g-3 ">
+                <div class="col">
+                    <div class="card shadow-lg">
+                        <video src="/video/math.mp4" type="video/mp4" muted class="vid" loop style="height: 15.5rem;">
+                        </video>
+
+
+
+
+                        <div class="card-body text-center">
+                            <h5 class="card-title"><b>Mathematics</b></h5>
+                            <p class="card-text">Math is beautiful. But sometimes, this can be hard to see, and even
+                                harder to convey to students who don’t</p>
+                            <a href="#" class="btn btn-lg btn-primary">Start Test</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col  ">
+                    <div class="card shadow-lg ">
+                        <div class="d-flex  justify-content-center">
+                            <script src="https://cdn.lordicon.com/pzdvqjsp.js"></script>
+                            <lord-icon src="https://cdn.lordicon.com/ibalslef.json" trigger="hover"
+                                style="width:250px;height:250px">
+                            </lord-icon>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title "><b>Science</b></h5>
+                            <p class="card-text">Science is organized knowledge. Wisdom is organized life. </p>
+
+                            <a href="#" class="btn btn-lg btn-primary">Start Test</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col ">
+                    <div class="card shadow-lg ">
+                        <video src="/video/ss.mp4" type="video/mp4" muted class="s" loop style="height: 15.5rem;">
+                        </video>
+                        <script>
+                            let ss = document.querySelector(".s")
+                           ss.addEventListener("mouseover", function(e){
+                            ss.play();
+                        })
+                            ss.addEventListener("mouseout", function(e){
+                               ss.pause();
+                           })
+                        </script>
+                        <div class="card-body text-center">
+                            <h5 class="card-title"><b>Social Science</b></h5>
+                            <p class="card-text">Science is morally neutral, but social science shows us that
+                                some
+                                moral
+                                codes are better than others</p>
+                            <a href="#" class="btn btn-lg btn-primary">Start Test</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-lg">
+                        <div class=" d-flex justify-content-center ">
+                            <script src="https://cdn.lordicon.com/qjzruarw.js"></script>
+                            <lord-icon src="https://cdn.lordicon.com/ttioogfl.json" trigger="morph"
+                                style="width:250px;height:250px">
+                            </lord-icon>
+                        </div>
+
+                        <div class="card-body text-center">
+                            <h5 class="card-title"><b>हिन्दी</b></h5>
+                            <p class="card-text">सम्मान है हिन्दी, अभिमान है हिन्दी भारतीय होने की पहचान है हिन्दी ।।
+                            </p>
+                            <a href="#" class="btn btn-lg btn-primary">Start Test</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-lg">
+                        <video src="/video/sans.mp4" type="video/mp4" muted class="sans" loop style="height: 15.5rem;">
+                            <script>
+                                let cl = document.querySelector(".sans")
+                                cl.addEventListener("mouseover", function (e) {
+                                    cl.play();
+                                })
+                                cl.addEventListener("mouseout", function (e) {
+                                    cl.pause();
+                                })
+                            </script>
+                        </video>
+
+
+                        <div class="card-body text-center">
+                            <h5 class="card-title"><b>संस्कृत</b></h5>
+                            <p class="card-text">नमन्ति फलिनो वृक्षाः नमन्ति गुणिनो जनाः |
+                                शुष्क काष्ठस्य मूर्खश्च न नमन्ति कदाचन् ||</p>
+                            <a href="#" class="btn btn-lg btn-primary">Start Test</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-lg">
+                        <video src="/video/english.mp4" type="video/mp4" muted class="eng" loop
+                            style="height: 15.5rem;">
+                        </video>
+                        <script>
+                            let en = document.querySelector(".eng")
+                            en.addEventListener("mouseover", function (e) {
+                                en.play();
+                                en.addEventListener("mouseout", function (e) {
+                                    en.pause();
+                                })
+                            })
+                        </script>
+
+
+
+                        <div class="card-body text-center">
+                            <h5 class="card-title"><b>English</b></h5>
+                            <p class="card-text">Language is the blood of the soul into which thoughts run and out of
+                                which they grow </p>
+                            <a href="#" class="btn btn-lg btn-primary">Start Test</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <p class=" text-center">&copy 2022-23 Lucifer MorningStar,
+            <a href="">privacy</a>
+            <a href="">terms</a>
+            <input type="file" capture="environment" accept="image/*">
+            <script src="https://cdn.lordicon.com/pzdvqjsp.js"></script>
+            <lord-icon src="https://cdn.lordicon.com/bxxnzvfm.json" trigger="hover" style="width:250px;height:250px">
+            </lord-icon>
+    </footer>
+    <script src="/js.js"> </script>
+
+</body>
+
+
+</html>

@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.lg:hover {
+    transform: scale(1.05);
+}
+
+.lg {
+    transition: transform .5s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card {
+    transition: transform 1s ease;
+}
+
+.li:hover {
+    transform: scale(1.05);
+}
+
+.li {
+    transition: transform 1s ease;
+
+}
+
+.icon {
+    transition: transform 1s ease;
+}
+
+.icon:hover {
+    transform: scale(1.5);
+}
+
+
+
+.cd:hover {
+    transform: scale(1.05);
+}
+
+.cd {
+    transition: transform 1s ease;
+}
